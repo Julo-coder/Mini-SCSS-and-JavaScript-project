@@ -1,0 +1,10 @@
+@import "../layout/navbar";
+@import "../layout/header";
+@import "../layout/sections";
+@import "../components/buttons";
+@import "../layout/links";
+
+body{
+  display: flex;
+  flex-direction: column;
+}

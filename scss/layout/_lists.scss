@@ -1,0 +1,110 @@
+@import "../utilities/variables";
+@import "../layout/links";
+@import "../utilities/mixins";
+
+ul {
+  list-style: none;
+}
+
+.nav__ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  & li {
+    width: 100%;
+    height: 100%;
+  }
+  & a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #a72424 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    transition: background-size 1s 0s ease all;
+    &:hover {
+      background-position: 0 100%;
+      background-image: linear-gradient(to top, $primary 51%, transparent 50%);
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
+
+.panelUser__ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2.5rem;
+  & li:nth-child(1) {
+    width: 50%;
+    & a {
+      position: absolute;
+      left: 3rem;
+      color: #707070;
+    }
+  }
+
+  & li:nth-child(2) {
+    width: 50%;
+    & a {
+      position: absolute;
+      left: 9rem;
+      color: #707070;
+    }
+  }
+}
+
+.userNav__ul {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  & li {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    text-align: center;
+    & a {
+      position: absolute;
+      left: 2rem;
+      top: 10px;
+    }
+
+    &:hover {
+      background-color: $hoverColor;
+    }
+  }
+}
+
+.info__ul {
+  display: flex;
+  color: white;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  //text-align: center;
+  // align-items: center;
+  flex-direction: row;
+}
+
+@media (max-width: 450px) {
+  .info__ul {
+    display: flex;
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

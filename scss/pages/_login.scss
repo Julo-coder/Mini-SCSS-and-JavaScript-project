@@ -1,0 +1,12 @@
+@import "../layout/navbar";
+@import "../layout/header";
+@import "../layout/sections";
+@import "../utilities/mixins";
+@import "../layout/forms";
+@import "../components/buttons";
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}

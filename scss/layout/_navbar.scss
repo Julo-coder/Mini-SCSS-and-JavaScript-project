@@ -1,0 +1,25 @@
+@import "lists";
+.nav {
+  width: 50%;
+  text-align: center;
+}
+
+.user__nav {
+  display: flex;
+  width: 100%;
+}
+
+
+@media (max-width: 620px) {
+  .nav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  }
+}

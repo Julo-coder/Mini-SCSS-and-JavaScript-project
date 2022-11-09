@@ -1,0 +1,23 @@
+.form {
+  & input {
+    background-color: transparent;
+    width: 200px;
+    height: 1.5rem;
+    border: 1px solid $basic;
+    border-radius: $inputRadius;
+    color: $basic;
+
+    &::placeholder {
+      font-size: 12px;
+      padding-left: 10px;
+    }
+  } 
+}
+
+.login__form {
+  & .login__form--password {
+    margin-top: 20px;
+  }
+}
+
+

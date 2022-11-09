@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stocktaking-app</title>
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section class="nav__section">
+      <header class="nav__header">
+        <h1>Stocktaking-app</h1>
+      </header>
+      <button class="open">
+        <span class="material-icons-round"> menu </span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__ul">
+          <button class="close">
+            <span class="material-icons-round"> close </span>
+          </button>
+          <li><a href="../home.html">Main Page</a></li>
+          <li><a href="../changePass.html">Contact</a></li>
+          <li><a href="../login.html">Login</a></li>
+          <li><a href="../registration.html">Register</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="login__section">
+      <header class="login__header">
+        <h1>Log in</h1>
+      </header>
+      <form class="form login__form">
+        <label for="email">
+          <input
+            type="email"
+            class="login__form--email"
+            placeholder="Email..."
+          />
+        </label>
+        <label for="password">
+          <input
+            type="password"
+            class="login__form--password"
+            placeholder="Password..."
+          />
+        </label>
+      </form>
+      <a href=""><button class="btn login__btn">Log in!</button></a>
+      <p>
+        Forgot password? <a href="#"><strong>Change it!</strong></a>
+      </p>
+      <p>
+        Want to join us?
+        <a href="../registration.html"><strong>Register here</strong></a>
+      </p>
+    </section>
+  </body>
+</html>

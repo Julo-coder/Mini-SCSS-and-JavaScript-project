@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+    <title>Stocktaking</title>
+  </head>
+  <body>
+    <section class="nav__section">
+      <header class="nav__header">
+        <h1>Stocktaking-app</h1>
+      </header>
+      <button class="open">
+        <span class="material-icons-round"> menu </span>
+      </button>
+      <nav class="nav">
+        <button class="close">
+          <span class="material-icons-round"> close </span>
+        </button>
+        <ul class="nav__ul">
+          <li><a href="../home.html">Main Page</a></li>
+          <li><a href="../changePass.html">Contact</a></li>
+          <li><a href="../login.html">Login</a></li>
+          <li><a href="../registration.html">Register</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="register__section">
+      <header class="register__header">
+        <h1>Registration</h1>
+      </header>
+      <form class="form register__form">
+        <label for="companyName">
+          <p>Company Name</p>
+          <input type="text" name="companyName" placeholder="Amazon..." />
+        </label>
+        <label for="companyEmail">
+          <p>Company Email</p>
+          <input
+            type="email"
+            name="companyEmail"
+            placeholder="example@domain.com"
+          />
+        </label>
+        <label for="userName">
+          <p>User Name</p>
+          <input type="text" name="userName" placeholder="Max222..." />
+        </label>
+        <label for="userEmail">
+          <p>User Email</p>
+          <input
+            type="email"
+            name="userEmail"
+            placeholder="example@gmail.com"
+          />
+        </label>
+        <label for="userPassword">
+          <p>User Password</p>
+          <input
+            type="password"
+            name="userPassword"
+            placeholder="Password..."
+          />
+        </label>
+        <label for="repeatUserPassword">
+          <p>Repeat User Password</p>
+          <input
+            type="password"
+            name="repeatUserPassword"
+            placeholder="Repeat Password..."
+          />
+        </label>
+      </form>
+      <a href=""><button class="btn register__btn">Register</button></a>
+      <p>
+        You have an accont? <a href="../login.html"><strong>Login</strong></a>
+      </p>
+    </section>
+  </body>
+</html>

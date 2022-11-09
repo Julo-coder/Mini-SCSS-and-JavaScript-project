@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import "pages/login";
+@import "pages/home";
+@import "../scss/utilities/variables";
+@import "pages/registration";
+@import "../scss/pages/users_page";
+@import "pages/changePass";
+
+body {
+  margin: auto;
+  background-color: $primary;
+  font-family: "Noto Sans JP", sans-serif;
+}

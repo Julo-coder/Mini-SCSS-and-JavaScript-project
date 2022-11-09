@@ -1,0 +1,46 @@
+header {
+  color: white;
+  text-align: center;
+  cursor: default;
+  margin: auto;
+}
+
+.nav__header {
+  width: 50%;
+}
+
+.login__header {
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+
+.info__header {
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+
+.register__header {
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.user__header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid $userBorderColor;
+  & h1 {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .info__header {
+    margin-top: 10px;
+    padding: 10px 0px;
+    margin-bottom: 3rem;
+  }
+}

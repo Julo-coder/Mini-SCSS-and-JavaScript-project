@@ -1,0 +1,133 @@
+.btn {
+  border: none;
+  border-radius: $BtnRadius;
+  text-decoration: none;
+}
+
+.open {
+  display: none;
+  border: none;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+}
+
+.close {
+  display: none;
+  border: none;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+}
+
+.login__btn {
+  margin-top: 20px;
+  color: $basic;
+  background-color: $btnColor;
+  font-size: 1rem;
+  width: 30%;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.info__btn--join {
+  padding: 0;
+  margin-top: 20px;
+  color: $basic;
+  background-color: $btnColor;
+  font-size: 1rem;
+  width: 4rem;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+
+.info__btn--login {
+  margin-top: 20px;
+  color: $basic;
+  background-color: $btnColor;
+  font-size: 1rem;
+  width: 4rem;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.register__btn {
+  margin-top: 20px;
+  color: $basic;
+  background-color: $btnColor;
+  font-size: 1rem;
+  width: 30%;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 620px) {
+  .info__btn--join {
+    padding: 0;
+    margin-top: 20px;
+    color: $basic;
+    background-color: $btnColor;
+    font-size: 1rem;
+    width: 4rem;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .info__btn--login {
+    margin-top: 20px;
+    color: $basic;
+    background-color: $btnColor;
+    font-size: 1rem;
+    width: 4rem;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .login__btn {
+    margin-top: 20px;
+    color: $basic;
+    background-color: $btnColor;
+    font-size: 1rem;
+    width: 5rem;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .register__btn {
+    margin-top: 20px;
+    color: $basic;
+    background-color: $btnColor;
+    font-size: 1rem;
+    width: 5rem;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .open {
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 0;
+    color: white;
+    background-color: transparent;
+  }
+
+  .close{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: white;
+    background-color: transparent;
+  }
+}

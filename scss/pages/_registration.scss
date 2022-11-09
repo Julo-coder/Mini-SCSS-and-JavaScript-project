@@ -1,0 +1,9 @@
+@import "../layout/navbar";
+@import "../layout/header";
+@import "../layout/sections";
+@import "../utilities/variables";
+
+body {
+  display: flex;
+  flex-direction: column;
+}
